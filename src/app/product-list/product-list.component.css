@@ -1,0 +1,28 @@
+.top-section-img {
+    width: 100%;
+    height: 1vh;
+    overflow: hidden;
+    display: block;
+    z-index: -1;
+
+}
+.product-box {
+    width: 300px;
+    height: 200px;
+    background: #000000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: -1;
+
+}
+.middle-section {
+    background-color: #88898a;
+    width: 100%;
+    height: 2vh;
+}
+
+.reviews-section {
+    background-color: #03334e;
+    width: 100%;
+    height: 1vh;
+}

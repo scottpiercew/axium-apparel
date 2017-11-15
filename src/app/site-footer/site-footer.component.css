@@ -1,0 +1,16 @@
+footer {
+    background-color: #000000;
+    box-shadow: 0 10px 3px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-small {
+    max-width: 80px;
+    padding: 10px;
+}
+.nav-links, a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: .9em;
+}
