@@ -1,7 +1,8 @@
 .nav-bar {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1vw 4fr 1vw;
     grid-template-rows: 4em;
+    justify-items: center;
     background-color: #ebeced;
     color: #4998A4;
 }
@@ -21,7 +22,7 @@
 .nav-bar-links > a, .dropbtn {
     color: #4998a4;
     text-align: center;
-    padding: 1em;
+    padding: 2vw;
     text-decoration: none;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;

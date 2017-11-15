@@ -12,6 +12,7 @@ export class ProductListComponent implements OnInit {
   productFrontImg: string = "assets/images/tough-mojo-jacket-img1.png";
   productBackImg: string = "assets/images/tough-mojo-jacket-img2.png";
   productTitle: string = "Tough Mojo Jacket";
+  forestImg: string = "assets/images/topsection-background.png";
 
 
   // display: boolean = false;

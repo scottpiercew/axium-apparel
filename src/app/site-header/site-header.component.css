@@ -4,7 +4,7 @@ header {
     grid-template-rows: 4em 4em;
     background-color: #000000;
     color: #4998A4;
-    box-shadow: 0 10px 3px #000000;
+    box-shadow: 0 10px 5px #797979;
 }
 .logo-main {
     grid-column: 2 / 3;
@@ -12,7 +12,7 @@ header {
     align-self: center;
     width: 300px;
     padding: 50px;
-    padding-left: 24px;
+    padding-left: 0;
 }
 .search {
     grid-column: 2 / 3;
@@ -20,7 +20,7 @@ header {
     position: relative;
     justify-self: end;
     align-self: end;
-    padding-right: 34px;
+    padding-right: 0;
 }
 .search input {
     text-indent: 8px;
@@ -51,4 +51,4 @@ header {
     height: 1.2em;
     margin-bottom: 6px;
 }
-.header-links:last-child { padding-right: 30px;}
+.header-links:last-child { padding-right: 0;}
