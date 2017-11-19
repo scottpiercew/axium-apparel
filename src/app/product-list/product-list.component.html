@@ -1,21 +1,34 @@
-<section class="product-section">
+<section *ngFor="let product of products" class="product-section">
     <div class="product-top-section-background ">
-        <img src={{forestImg}} alt="">
+        <img src={{forestImg}} alt="Background Image of Forest">
     </div>
-    <div class="product-top-section">
+    <div class="product-top-section-blur">
+    </div>
+    <div class="product-top-section-img">
+        <div>
+        <a href="#">Clothing</a>
+        >
+        <a href="#">Outerwear</a>
+        </div>
+        <img src={{product.frontImg}} alt="Jacket">
+    </div>
+
+
+    <div *ngFor="let description of description" class="product-top-section-info">
+        <p>{{ description }}</p>
 
     </div>
 
-    <div class="product-bottom-section-background">
-
+    <div class="product-bottom-section-background"></div>
+    <div class="product-bottom-section-img">
+        <img src={{product.backImg}} alt="Jacket">
     </div>
-    <div class="product-bottom-section">
-
+    <div class="product-bottom-section-story">
+        <p>{{product.storyDescription[0]}}</p>
+        <p>{{product.storyDescription[1]}}</p>
+        <p>{{product.storyDescription[2]}}</p>
     </div>
-
-    <div class="product-review-section-background">
-
-    </div>
+    <div class="product-review-section-background"></div>
     <div class="product-review-section">
 
     </div>

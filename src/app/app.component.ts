@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 import {AccordionModule} from 'primeng/primeng';
 import {MenuItem} from 'primeng/primeng';
 
@@ -15,5 +16,5 @@ import {MenuItem} from 'primeng/primeng';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle: string = 'Axium Apparel';
+  pageTitle = 'Axium Apparel';
 }

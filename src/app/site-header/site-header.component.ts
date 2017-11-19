@@ -7,10 +7,10 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class SiteHeaderComponent implements OnInit {
-  mainLogo: string = 'assets/images/axiom-logo-main.png'
-  searchIcon: string = 'assets/images/search-icon.png'
-  fbIcon: string = 'assets/images/fb-icon.png'
-  twitterIcon: string = 'assets/images/twitter-icon.png'
+  mainLogo = 'assets/images/axiom-logo-main.png';
+  searchIcon = 'assets/images/search-icon.png';
+  fbIcon = 'assets/images/fb-icon.png';
+  twitterIcon = 'assets/images/twitter-icon.png';
 
   constructor() { }
 
