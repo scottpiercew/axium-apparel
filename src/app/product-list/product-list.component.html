@@ -13,21 +13,21 @@
         <img src={{product.frontImg}} alt="Jacket">
     </div>
 
-
-    <div *ngFor="let description of description" class="product-top-section-info">
-        <p>{{ description }}</p>
-
-    </div>
-
+<ul class="product-top-section-info">
+    <h2>{{productName}}</h2>
+    <li *ngFor="let description of description" >
+        {{description}}
+    </li>
+</ul>
     <div class="product-bottom-section-background"></div>
     <div class="product-bottom-section-img">
         <img src={{product.backImg}} alt="Jacket">
     </div>
-    <div class="product-bottom-section-story">
-        <p>{{product.storyDescription[0]}}</p>
-        <p>{{product.storyDescription[1]}}</p>
-        <p>{{product.storyDescription[2]}}</p>
-    </div>
+    <ul class="product-bottom-section-story">
+        <li *ngFor="let product of products">
+            <p>{{ product.storyDescription }}</p>
+        </li>
+    </ul>
     <div class="product-review-section-background"></div>
     <div class="product-review-section">
 

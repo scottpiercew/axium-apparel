@@ -2,7 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { AccordionModule } from 'primeng/primeng';
 import { Pipe, PipeTransform } from '@angular/core';
 import { MenuItem } from 'primeng/primeng';
-import { IProductList, IProduct } from './product-list-i';
+import { IProductList, IProduct } from './product-list';
 
 
 @Component({
@@ -13,6 +13,7 @@ import { IProductList, IProduct } from './product-list-i';
 })
 export class ProductListComponent implements OnInit {
   forestImg = 'assets/images/topsection-background.png';
+  productName: string = 'Tough Mojo Jacket®';
   description: string[] = [
     '300 GRAMS OF PRIMALOFT® ONE INSULATION',
     'SCHOELLER® MICROFIBER SHELL',

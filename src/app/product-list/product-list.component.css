@@ -48,6 +48,10 @@
 .product-top-section-info {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+    list-style: none;
+}
+.product-top-section-info h2 {
+    font-size: 2em;
 }
 .product-bottom-section-background {
     grid-column: 1 / -1;
